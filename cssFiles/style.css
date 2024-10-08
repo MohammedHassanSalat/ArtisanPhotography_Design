@@ -1,0 +1,762 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+    margin: auto;
+}
+
+body {
+    font-family: "Source Serif Pro";
+}
+
+.clr {
+    clear: both;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+/* start page home */
+
+/* sec 1 */
+
+
+.sec1 {
+    height: 800px;
+    background-image: url(../imgs/segara.jpg);
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.sec1 .item-text {
+    margin-top: 150px;
+    color: white;
+}
+
+.sec1 .item-text .p1 {
+    font-size: 25px;
+    line-height: 1.7;
+    padding: 20px 0;
+}
+
+.sec1 .item-text .p2 {
+    font-size: 80px;
+}
+
+.sec1 a {
+    font-weight: 800;
+    background-color: white;
+    color: black;
+    padding: 20px 30px;
+    font-family: "Source Serif Pro";
+    border-radius: 5px;
+    cursor: pointer;
+    border: 1px solid white;
+    transition: all 0.5s;
+    text-decoration: none;
+}
+
+.sec1 a:hover {
+    opacity: .7;
+}
+
+
+/* sec 1 */
+
+
+/* sec 2 */
+
+
+.sec2 {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.912);
+    padding: 65px 0;
+}
+
+.sec2 .item-text {
+    color: white;
+}
+
+.sec2 .p1 {
+    font-size: 35px;
+}
+
+.sec2 .p2 {
+    font-size: 20px;
+    opacity: .5;
+    line-height: 1.7;
+    padding-top: 35px;
+}
+
+
+/* sec 2 */
+
+
+/* sec 3 */
+
+
+.sec3 {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.873);
+    padding: 50px 0;
+}
+
+.sec3 .img-item {
+    width: 50%;
+    float: left;
+    padding: 30px;
+}
+
+.sec3 .item-text {
+    color: white;
+    width: 50%;
+    float: left;
+    text-align: left;
+    padding: 30px;
+    padding-left: 40px;
+    padding-top: 100px;
+}
+
+.sec3 .p1 {
+    font-size: 30px;
+}
+
+.sec3 .item-text .p2 {
+    font-size: 18px;
+    opacity: .5;
+    line-height: 1.7;
+    padding-top: 30px;
+}
+
+.sec3 .item-text .p3 {
+    font-size: 16px;
+    padding-top: 60px;
+}
+
+
+/* sec 3 */
+
+
+/* sec 4 */
+
+
+.sec4 {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.912);
+    padding: 65px 0;
+}
+
+.sec4 .item-text {
+    color: white;
+}
+
+.sec4 .item-text .p1 {
+    font-size: 30px;
+}
+
+.sec4 .item-text .p2 {
+    font-size: 18px;
+    opacity: .5;
+    padding-top: 25px;
+}
+
+.sec4 .item-text .pp {
+    padding-top: 60px;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.sec4 .item-text .p4 {
+    padding-left: 25px;
+    opacity: 0.5;
+    transition: all 0.5s;
+}
+
+.sec4 .item-text .p4:hover {
+    opacity: 1;
+}
+
+/* start images */
+.sec4 .container .col {
+    width: 33.33%;
+    float: left;
+    padding: 0 10px;
+    padding-top: 40px;
+}
+
+.sec4 .item {
+    padding-top: 20px;
+}
+
+.sec4 .item .img-item {
+    position: relative;
+    overflow: hidden;
+}
+
+.sec4 .item .img-item .overlay {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.458);
+    opacity: 0;
+    transition: all 0.5s;
+    z-index: 1;
+}
+
+.sec4 .item .img-item img {
+    transition: all 0.5s;
+}
+
+.sec4 .item:hover .img-item .overlay {
+    opacity: 1;
+}
+
+.sec4 .item:hover .img-item img {
+    transform: scale(1.1);
+}
+
+.sec4 .item .img-item .overlay .btnss {
+    position: relative;
+    top: 50%;
+    transform: translateY(10px);
+    transition: all .5s;
+}
+
+.sec4 .item .img-item .overlay .btnss i {
+    font-size: 20px;
+    padding-top: 7px;
+    background-color: white;
+    width: 35px;
+    height: 35px;
+    border: 1px solid white;
+    opacity: .8;
+    line-height: 20px;
+    border-radius: 100%;
+    transition: all 0.5s;
+}
+
+.sec4 .item .img-item .overlay .btnss i:hover {
+    opacity: .4;
+}
+
+.sec4 .item:hover .img-item .overlay .btnss {
+    transform: translateY(0);
+}
+
+.sec4 .item:hover {
+    cursor: pointer;
+}
+
+.sec4 .container .btn {
+    color: white;
+    margin-top: 10px;
+    font-size: 15px;
+    background-color: rgba(128, 128, 128, 0.329);
+    padding: 15px 25px;
+    font-family: "Source Serif Pro";
+    border-radius: 5px;
+    cursor: pointer;
+    border: 1px solid gray;
+    margin-top: 60px;
+}
+
+
+/* sec 4 */
+
+
+/* sec 5 */
+.sec5 {
+    padding: 70px 0;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.873);
+}
+
+.sec5 .container .text .p1 {
+    font-size: 30px;
+    color: white;
+}
+
+.sec5 .container .text .p2 {
+    font-size: 17px;
+    padding-top: 25px;
+    padding-bottom: 40px;
+    opacity: .7;
+    color: white;
+}
+
+.sec5 .container .card1 {
+    width: 31.33%;
+    float: left;
+    padding: 30px;
+    background-color: rgba(128, 128, 128, 0.075);
+    margin: 10px;
+}
+
+.sec5 .container .card1 .textCard {
+    text-align: left;
+    color: white;
+}
+
+.sec5 .container .card1 .pp1 {
+    font-size: 20px;
+}
+
+.sec5 .container .card1 .pp2 {
+    font-size: 15px;
+    opacity: .5;
+    padding-top: 10px;
+}
+
+.sec5 .container .card1 .pp3 {
+    font-size: 20px;
+    opacity: .7;
+    padding-top: 15px;
+    line-height: 1.5;
+}
+
+.sec5 .container .card1 .pp4 {
+    font-size: 17px;
+    opacity: .6;
+    padding-top: 15px;
+}
+
+.sec5 .container .card1 .pp4 i {
+    padding-left: 10px;
+}
+
+.sec5 .container .btn {
+    color: white;
+    font-size: 15px;
+    font-weight: 800;
+    background-color: rgba(128, 128, 128, 0.329);
+    padding: 15px 25px;
+    font-family: "Source Serif Pro";
+    border-radius: 5px;
+    cursor: pointer;
+    border: 1px solid gray;
+    margin-top: 60px;
+}
+
+.sec5 .container .btn i {
+    padding-left: 10px;
+}
+
+/* sec 5 */
+
+
+/* sec 6 */
+.sec6 {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.912);
+    padding: 70px 0;
+}
+
+.sec6 .img-item {
+    width: 15%;
+    margin: auto;
+}
+
+.sec6 .item-text p {
+    opacity: .5;
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.sec6 .container .icons i {
+    color: white;
+    font-size: 20px;
+    background-color: gray;
+    width: 50px;
+    height: 50px;
+    opacity: .5;
+    line-height: 50px;
+    border-radius: 100%;
+    cursor: pointer;
+    /* position: relative; */
+    /* overflow: hidden; */
+    margin: 10px;
+}
+
+
+/* sec 6 */
+
+
+/* end page home */
+
+
+
+/* start page about */
+
+
+/* secc1 */
+.secc1 {
+    height: 250px;
+    background-image: url(../imgs/about.jpeg);
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+}
+
+.secc1 .layer {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.516);
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+}
+
+.secc1 .text {
+    text-align: center;
+    color: white;
+    margin-top: 70px;
+}
+
+.secc1 .text .p1 {
+    font-size: 50px;
+}
+
+.secc1 .text .p2 {
+    font-size: 20px;
+    padding-top: 20px;
+}
+
+/* secc1 */
+
+
+/* secc2 */
+.secc2 {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.912);
+    padding: 50px 0;
+}
+
+.secc2 .img-item {
+    width: 50%;
+    float: left;
+    padding: 30px;
+}
+
+.secc2 .item-text {
+    color: white;
+    width: 50%;
+    float: left;
+    text-align: left;
+    padding: 30px;
+    padding-top: 60px;
+}
+
+.secc2 .p1 {
+    font-size: 35px;
+}
+
+.secc2 .item-text .p2 {
+    font-size: 18px;
+    opacity: .5;
+    line-height: 1.5;
+    padding-top: 30px;
+}
+
+.secc2 .item-text .p3 {
+    font-size: 16px;
+    padding-top: 40px;
+}
+
+
+/* secc2 */
+
+
+/* secc3 */
+
+
+.secc3 {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.873);
+    padding: 70px 0;
+}
+
+.secc3 .img-item {
+    width: 50%;
+    float: left;
+    padding: 30px;
+}
+
+.secc3 .item-text {
+    color: white;
+    width: 50%;
+    float: left;
+    text-align: left;
+    padding: 30px;
+    padding-left: 40px;
+    padding-top: 100px;
+}
+
+.secc3 .p1 {
+    font-size: 35px;
+}
+
+.secc3 .item-text .p2 {
+    font-size: 18px;
+    opacity: .5;
+    line-height: 1.7;
+    padding-top: 30px;
+}
+
+.secc3 .item-text .p3 {
+    font-size: 16px;
+    padding-top: 60px;
+}
+
+/* secc3 */
+
+
+/* secc4 */
+.secc4 {
+    text-align: center;
+    padding: 80px 0;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.912);
+}
+
+
+.secc4 .container .item1 {
+    width: 25%;
+    float: left;
+}
+
+.secc4 .container .item2 {
+    width: 25%;
+    float: left;
+}
+
+.secc4 .container .item3 {
+    width: 25%;
+    float: left;
+}
+
+.secc4 .container .item4 {
+    width: 25%;
+    float: left;
+}
+
+.secc4 .container .p1 {
+    padding: 20px 0;
+    font-size: 20px;
+}
+
+.secc4 .container .p2 {
+    line-height: 1.5;
+    opacity: .7;
+}
+
+.secc4 .container i {
+    padding-bottom: 20px;
+    font-size: 30px;
+    background-color: rgba(128, 128, 128, 0.441);
+    width: 80px;
+    height: 80px;
+    border: 1px solid black;
+    line-height: 80px;
+    border-radius: 50%;
+}
+
+/* secc4 */
+
+/* secc5 */
+.secc5 {
+    background-color: rgba(0, 0, 0, 0.873);
+    color: white;
+    text-align: center;
+    padding: 60px 0;
+}
+
+.secc5 .btns .btn1 {
+    color: white;
+    background-color: rgba(128, 128, 128, 0.197);
+    padding: 10px 15px;
+    margin: 5px;
+    font-size: 15px;
+    cursor: pointer;
+    border: 0;
+}
+
+.secc5 .btns .btn2 {
+    opacity: .5;
+    background-color: rgba(128, 128, 128, 0.097);
+    transition: all .5s;
+}
+
+.secc5 .btns .btn2:hover {
+    opacity: .2;
+    background-color: rgba(0, 0, 0, 0.425);
+}
+
+.secc5 .text1 {
+    width: 50%;
+    float: left;
+    opacity: .5;
+    text-align: left;
+    padding: 30px;
+    line-height: 1.5;
+}
+
+/* secc5 */
+
+/* secc6 */
+/* styled above */
+/* secc6 */
+
+
+/* end page about */
+
+
+/* start page albums */
+
+/* seccc1 */
+.seccc1 {
+    background-color: black;
+    text-align: center;
+    padding: 55px 0;
+}
+
+.seccc1 .text {
+    color: white;
+}
+
+.seccc1 .text .p1 {
+    font-size: 40px;
+}
+
+.seccc1 .text .p2 {
+    font-size: 20px;
+    opacity: .5;
+    padding-top: 20px;
+}
+
+/* seccc1 */
+
+
+/* seccc2 */
+.seccc2 {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.912);
+    padding: 65px 0;
+}
+
+.seccc2 .item-text {
+    color: white;
+}
+
+
+.seccc2 .item-text .pp {
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.seccc2 .item-text .p4 {
+    padding-left: 25px;
+    opacity: 0.5;
+    transition: all 0.5s;
+}
+
+.seccc2 .item-text .p4:hover {
+    opacity: 1;
+}
+
+/* start images */
+.seccc2 .container .col {
+    width: 33.33%;
+    float: left;
+    padding: 0 10px;
+    padding-top: 40px;
+}
+
+.seccc2 .item {
+    padding-top: 20px;
+}
+
+.seccc2 .item .img-item {
+    position: relative;
+    overflow: hidden;
+}
+
+.seccc2 .item .img-item .overlay {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.458);
+    opacity: 0;
+    transition: all 0.5s;
+    z-index: 1;
+}
+
+.seccc2 .item .img-item img {
+    transition: all 0.5s;
+}
+
+.seccc2 .item:hover .img-item .overlay {
+    opacity: 1;
+}
+
+.seccc2 .item:hover .img-item img {
+    transform: scale(1.1);
+}
+
+.seccc2 .item .img-item .overlay .btnss {
+    position: relative;
+    top: 50%;
+    transform: translateY(10px);
+    transition: all .5s;
+}
+
+.seccc2 .item .img-item .overlay .btnss i {
+    font-size: 20px;
+    padding-top: 7px;
+    background-color: white;
+    width: 35px;
+    height: 35px;
+    border: 1px solid white;
+    opacity: .8;
+    line-height: 20px;
+    border-radius: 100%;
+    transition: all 0.5s;
+}
+
+.seccc2 .item .img-item .overlay .btnss i:hover {
+    opacity: .4;
+}
+
+.seccc2 .item:hover .img-item .overlay .btnss {
+    transform: translateY(0);
+}
+
+.seccc2 .item:hover {
+    cursor: pointer;
+}
+
+
+/* seccc2 */
+
+/* seccc3 */
+/* styled above */
+/* seccc3 */
+
+
+
+
+
+
+
+/* end page albums */
